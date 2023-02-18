@@ -1,0 +1,9 @@
+Queue: ['ABC 1']
+Queue: ['ABC 1', 'BCD 3']
+Queue: ['ABC 1', 'KLK 2', 'BCD 3']
+Queue: ['ABC 1', 'LLO 1', 'KLK 2', 'BCD 3']
+Patient ABC  is seeing the doctor.
+Patient LLO  is seeing the doctor.
+Queue: ['KLK 2', 'PPO 2', 'BCD 3']
+Queue: ['ppW 1', 'KLK 2', 'PPO 2', 'BCD 3']
+Patient ppW  is seeing the doctor.
