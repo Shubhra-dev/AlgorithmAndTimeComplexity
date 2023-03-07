@@ -21,4 +21,4 @@ def bubble_sort(arr):
 # Example usage:
 my_list = [5, 3, 8, 6, 7, 2]
 bubble_sort(my_list)
-print(my_list)  # Output: [2, 3, 5, 6, 7, 8]
+print(my_list)
