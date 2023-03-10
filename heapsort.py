@@ -49,6 +49,8 @@ class MinHeap:
         while self.heap:
             sorted_arr.append(self.delete())
         return sorted_arr
+    
+    #main Function
 
 if __name__ == '__main__':
     heap = MinHeap()
@@ -57,6 +59,7 @@ if __name__ == '__main__':
     heap.build(arr)
     
     while True:
+        # Input
         action = input("Enter 'A' to add a number, 'B' to delete, or 'S' to sort: ")
         if action == 'A':
             num = int(input("Enter a number to add to the heap: "))
