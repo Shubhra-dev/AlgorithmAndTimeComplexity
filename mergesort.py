@@ -1,3 +1,4 @@
+#Function
 def mergeSort(array):
     if len(array) > 1:
 
