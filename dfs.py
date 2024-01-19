@@ -7,7 +7,6 @@ graph = {
     'E': ['F'],
     'F': []
 }
-
 # DFS algorithm using recursion
 def dfs_recursive(graph, start, visited=set()):
     visited.add(start)
@@ -16,7 +15,6 @@ def dfs_recursive(graph, start, visited=set()):
     for neighbor in graph[start]:
         if neighbor not in visited:
             dfs_recursive(graph, neighbor, visited)
-
 # DFS algorithm using a stack
 def dfs_iterative(graph, start):
     visited = set()
@@ -32,7 +30,6 @@ def dfs_iterative(graph, start):
             for neighbor in reversed(graph[vertex]):
                 if neighbor not in visited:
                     stack.append(neighbor)
-
 # Example usage
 dfs_recursive(graph, 'A')
 # Output: A B D E F C
