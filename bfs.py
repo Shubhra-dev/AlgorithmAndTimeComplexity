@@ -7,7 +7,6 @@ graph = {
     'E': ['F'],
     'F': []
 }
-
 # BFS algorithm using a queue
 def bfs(graph, start):
     visited = set()
@@ -23,7 +22,6 @@ def bfs(graph, start):
             for neighbor in graph[vertex]:
                 if neighbor not in visited:
                     queue.append(neighbor)
-
 # Example usage
 bfs(graph, 'A')
 # Output: A B C D E F
