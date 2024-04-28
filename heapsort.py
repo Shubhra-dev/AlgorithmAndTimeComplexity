@@ -49,8 +49,7 @@ class MinHeap:
         while self.heap:
             sorted_arr.append(self.delete())
         return sorted_arr
-    
-    #main Function
+
 
 if __name__ == '__main__':
     heap = MinHeap()
